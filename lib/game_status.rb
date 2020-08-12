@@ -23,7 +23,9 @@ WIN_COMBINATIONS = [
   end
 end
 
-def full?
+def full?(board)
+  board.all? {|w| w == "x" || w == "y"}
+end
 
   
   
