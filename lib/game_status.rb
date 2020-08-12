@@ -22,6 +22,8 @@ WIN_COMBINATIONS = [
     position_taken?(board; tricky[0])
   end
 end
+
+def full?
   
   
   
