@@ -36,8 +36,9 @@ def over?(board)
 end
   
 def winner(board)
-  
-  
+  if  person_won = won?(board)
+    board[]
+  end
   
 end
   
