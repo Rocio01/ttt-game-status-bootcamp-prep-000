@@ -22,9 +22,8 @@ WIN_COMBINATIONS = [
     position_taken?(board; tricky[0])
   end
 end
-
 def full?(board)
-  board.all? {|w| w == "x" || w == "y"}
+  board.all? {|w| w == "x" || w == "o"}
 end
 
   
